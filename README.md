@@ -1,2 +1,2 @@
 # literature
-group literature bib file
+This is our fancy group literature bib file.
