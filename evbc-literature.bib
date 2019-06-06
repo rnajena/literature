@@ -576,17 +576,6 @@
   publisher = {Am Soc Microbiol},
 }
 
-@Article{Doering:18,
-  author    = {D{\"o}ring, Matthias and B{\"u}ch, Joachim and Friedrich, Georg and Pironti, Alejandro and Kalaghatgi, Prabhav and Knops, Elena and Heger, Eva and Obermeier, Martin and D{\"a}umer, Martin and Thielen, Alexander and others},
-  title     = {{geno2pheno} [ngs-freq]: a genotypic interpretation system for identifying viral drug resistance using next-generation sequencing data},
-  journal   = {{Nucleic Acids Res}},
-  year      = {2018},
-  volume    = {46},
-  number    = {W1},
-  pages     = {W271--W277},
-  publisher = {Oxford University Press},
-}
-
 @Article{Milewska:18,
   author    = {Milewska, Aleksandra and Kindler, Eveline and Vkovski, Philip and Zeglen, Slawomir and Ochman, Marek and Thiel, Volker and Rajfur, Zenon and Pyrc, Krzysztof},
   title     = {{APOBEC3}-mediated restriction of {RNA} virus replication},
@@ -1610,5 +1599,18 @@
   year      = {2019},
   doi       = {10.1093/infdis/jiz094},
   publisher = {Oxford University Press ({OUP})},
+}
+
+@Article{Doering:18,
+  author        = {Döring, Matthias and Büch, Joachim and Friedrich, Georg and Pironti, Alejandro and Kalaghatgi, Prabhav and Knops, Elena and Heger, Eva and Obermeier, Martin and Däumer, Martin and Thielen, Alexander and Kaiser, Rolf and Lengauer, Thomas and Pfeifer, Nico},
+  title         = {geno2pheno[ngs-freq]: a genotypic interpretation system for identifying viral drug resistance using next-generation sequencing data.},
+  journal       = {{Nucleic Acids Res}},
+  year          = {2018},
+  volume        = {46},
+  pages         = {W271--W277},
+  abstract      = {Identifying resistance to antiretroviral drugs is crucial for ensuring the successful treatment of patients infected with viruses such as human immunodeficiency virus (HIV) or hepatitis C virus (HCV). In contrast to Sanger sequencing, next-generation sequencing (NGS) can detect resistance mutations in minority populations. Thus, genotypic resistance testing based on NGS data can offer novel, treatment-relevant insights. Since existing web services for analyzing resistance in NGS samples are subject to long processing times and follow strictly rules-based approaches, we developed geno2pheno[ngs-freq], a web service for rapidly identifying drug resistance in HIV-1 and HCV samples. By relying on frequency files that provide the read counts of nucleotides or codons along a viral genome, the time-intensive step of processing raw NGS data is eliminated. Once a frequency file has been uploaded, consensus sequences are generated for a set of user-defined prevalence cutoffs, such that the constructed sequences contain only those nucleotides whose codon prevalence exceeds a given cutoff. After locally aligning the sequences to a set of references, resistance is predicted using the well-established approaches of geno2pheno[resistance] and geno2pheno[hcv]. geno2pheno[ngs-freq] can assist clinical decision making by enabling users to explore resistance in viral populations with different abundances and is freely available at http://ngs.geno2pheno.org.},
+  doi           = {10.1093/nar/gky349},
+  issue         = {W1},
+  pmid          = {29718426},
 }
 
