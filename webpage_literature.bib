@@ -1,3 +1,12 @@
+@Article{Collatz:20,
+  author    = {Maximilian Collatz and Florian Mock and Martin Hoelzer and Emanuel Barth and Konrad Sachse and Manja Marz},
+  title     = {{EpiDope}: A Deep neural network for linear B-cell epitope prediction},
+  journal   = {{bioRxiv}},
+  year      = {2020},
+  doi       = {10.1101/2020.05.12.090019},
+  publisher = {Cold Spring Harbor Laboratory},
+}
+
 @Article{Samuel:20,
   author    = {Sheeba Samuel and Maha Shadaydeh and Sebastian Böcker and Bernd Brügmann and Solveig Franziska Bucher and Volker Deckert and Joachim Denzler and Peter Dittrich and Ferdinand von Eggeling and Daniel Güllmar and Orlando Guntinas-Lichius and Birgitta König-Ries and Frank Löffler and Lutz Maicher and Manja Marz and Mirco Migliavacca and Jürgen R. Reichenbach and Markus Reichstein and Christine Römermann and Andrea Wittig},
   title     = {A virtual ``Werkstatt'' for digitization in the sciences},
@@ -32,12 +41,24 @@
   eprint  = {http://oup.prod.sis.lan/nargab/article-pdf/2/1/lqz006/30076191/lqz006.pdf},
   url     = {https://doi.org/10.1093/nargab/lqz006},
 }
+
 @Article{VanDamme:20,
   author    = {Van Damme, Renaud and H{\"o}lzer, Martin and Viehweger, Adrian and M{\"u}ller, Bettina and Bongcam-Rudloff, Erik and Brandt, Christian},
   title     = {Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis ({MUFFIN})},
   journal   = {{bioRxiv}},
   year      = {2020},
   publisher = {Cold Spring Harbor Laboratory},
+}
+
+@Article{Mock:20,
+  author       = {Mock, Florian and Viehweger, Adrian and Barth, Emanuel and Marz, Manja},
+  title        = {{VIDHOP}, viral host prediction with Deep Learning},
+  journal      = {{bioRxiv}},
+  year         = {2020},
+  abstract     = {Zoonosis, the natural transmission of infections from animal to human, is a far-reaching global problem. The recent outbreaks of Zika virus and Ebola virus are examples of viral zoonosis, which occur more frequently due to globalization. In case of a virus outbreak, it is helpful to know which host organism was the original carrier of the virus. Once the reservoir or intermediate host is known, it can be isolated to prevent further spreading of the viral infection. Recent approaches aim to predict a viral host based on the viral genome, often in combination with the potential host genome and using arbitrary selected features. This methods have a clear limitation in either the amount of different hosts they can predict or the accuracy of the prediction. Here, we present a fast and accurate deep learning approach for viral host prediction, which is based on the viral genome sequence only. To assure a high prediction accuracy we developed an effective selection approach for the training data, to avoid biases due to a highly unbalanced number of known sequences per virus-host combinations. We tested our deep neural network on three different virus species (influenza A virus, rabies lyssavirus, rotavirus A) and reached for each virus species a AUC between 0.94 and 0.98, outperforming previous approaches and allowing highly accurate predictions while only using fractions of the viral genome sequences. We show that deep neural networks are suitable to predict the host of a virus, even with a limited amount of sequences and highly unbalanced available data. The deep neural networks trained for this approach build the core of the virus host predicting tool VIDHOP (VIrus Deep learning HOst Prediction).},
+  doi          = {10.1101/575571},
+  elocation-id = {575571},
+  publisher    = {Cold Spring Harbor Laboratory},
 }
 
 @Article{Fricke:18,
@@ -1123,17 +1144,6 @@
   abstract = {Near-surface groundwaters are prone to receive (in)organic matter input from their recharge areas and are known to harbour autotrophic microbial communities linked to nitrogen and sulfur metabolism. Here, we use multi-"omic" profiling to gain holistic insights into the turnover of inorganic nitrogen compounds, carbon fixation processes and organic matter processing in groundwater. We sampled microbial biomass from two superimposed aquifers via monitoring wells that follow groundwater flow from its recharge area through differences in hydrogeochemical settings and land use. Functional profiling revealed that groundwater microbiomes are mainly driven by nitrogen (nitrification, denitrification, anammox) and to a lesser extent sulfur cycling (sulfur oxidation and sulfate reduction), dependent on local hydrochemical differences. Surprisingly, the differentiation potential of the groundwater microbiome surpasses that of hydrochemistry for individual monitoring wells. Dominated by few phyla (Bacteroidetes, Proteobacteria, Planctomycetes, Thaumarchaeota), the taxonomic profiling of groundwater metagenomes and metatranscriptomes revealed pronounced differences between merely present microbiome members and those actively participating in community gene expression and biogeochemical cycling. Unexpectedly, we observed a constitutive expression of carbohydrate-active enzymes, encoded by different microbiome members, along with the groundwater flow path. The turnover of organic carbon apparently complements for lithoautotrophic carbon assimilation pathways mainly used by the groundwater microbiome dependent on the availability of oxygen and inorganic electron donors like ammonium.  Groundwater is a key resource for drinking water production and irrigation. The interplay between geological setting, hydrochemistry, carbon storage and groundwater microbiome ecosystem functioning is crucial for our understanding of these important ecosystem services. We targeted the encoded and expressed metabolic potential of groundwater microbiomes along an aquifer transect that diversifies in terms of hydrochemistry and land use. Our results showed that the groundwater microbiome has a higher spatial differentiation potential than hydrochemistry.},
   doi      = {10.1128/AEM.02346-18},
   pmid     = {30578263},
-}
-
-@Article{Mock:19,
-  author       = {Mock, Florian and Viehweger, Adrian and Barth, Emanuel and Marz, Manja},
-  title        = {Viral host prediction with Deep Learning},
-  journal      = {{bioRxiv}},
-  year         = {2019},
-  abstract     = {Zoonosis, the natural transmission of infections from animal to human, is a far-reaching global problem. The recent outbreaks of Zika virus and Ebola virus are examples of viral zoonosis, which occur more frequently due to globalization. In case of a virus outbreak, it is helpful to know which host organism was the original carrier of the virus. Once the reservoir or intermediate host is known, it can be isolated to prevent further spreading of the viral infection. Recent approaches aim to predict a viral host based on the viral genome, often in combination with the potential host genome and using arbitrary selected features. This methods have a clear limitation in either the amount of different hosts they can predict or the accuracy of the prediction. Here, we present a fast and accurate deep learning approach for viral host prediction, which is based on the viral genome sequence only. To assure a high prediction accuracy we developed an effective selection approach for the training data, to avoid biases due to a highly unbalanced number of known sequences per virus-host combinations. We tested our deep neural network on three different virus species (influenza A virus, rabies lyssavirus, rotavirus A) and reached for each virus species a AUC between 0.94 and 0.98, outperforming previous approaches and allowing highly accurate predictions while only using fractions of the viral genome sequences. We show that deep neural networks are suitable to predict the host of a virus, even with a limited amount of sequences and highly unbalanced available data. The deep neural networks trained for this approach build the core of the virus host predicting tool VIDHOP (VIrus Deep learning HOst Prediction).},
-  doi          = {10.1101/575571},
-  elocation-id = {575571},
-  publisher    = {Cold Spring Harbor Laboratory},
 }
 
 @Article{Gerresheim:19,
